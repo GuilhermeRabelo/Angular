@@ -14,5 +14,12 @@
     <h2 [ngClass]="messageClasses">Using ngClass</h2>
 </div>
 
+<div id="style-binding">
+    <h2>--STYLE BINDING--</h2>
+    <h2 [style.color]="'purple'">Simliar to class binding</h2>
+    <h2 [style.color]="hasError ? 'darkorange' : 'darkpink'">Condicional operator to set this color</h2>
+    <h2 [style.color]="highlightColor">Using component class</h2>
+    <h2 [ngStyle]="titleStyles">Using ngStyles</h2>
+</div>
 
 
