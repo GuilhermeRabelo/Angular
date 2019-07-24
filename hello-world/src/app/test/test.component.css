@@ -3,7 +3,6 @@ h2 {
     text-align: center;
 }
 
-
 .text-sucess {
     color: green;
 }
@@ -16,7 +15,11 @@ h2 {
     font-style: italic;
 }
 
-#interpolation {
+.btn {
+    margin-left: 10px;
+}
+
+#interpolation, #class-binding, #style-binding, #event-binding, #template-reference {
     width: 50%;
     border: 2px solid lightblue;
     margin: 0 auto;
@@ -25,22 +28,9 @@ h2 {
     background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#class-binding {
-    width: 50%;
-    border: 2px solid lightblue;
-    margin: 0 auto;
-    background: #C9FFBF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-#style-binding {
-    width: 50%;
-    border: 2px solid lightblue;
-    margin: 0 auto;
-    background: #C9FFBF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+button {
+    margin-left: 300px;
+    width: 20%;
 }
 
 

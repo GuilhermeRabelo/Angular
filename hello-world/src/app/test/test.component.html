@@ -22,4 +22,19 @@
     <h2 [ngStyle]="titleStyles">Using ngStyles</h2>
 </div>
 
+<div id="event-binding">
+    <h2>--EVENT BINDING--</h2>
+    <button (click)="onClick($event)">Click Me for hello</button>
+    <h2>{{hello}}</h2>
+    <button (click)="hello='Bye'">Click Me for bye</button>
+</div>
+
+<div id="template-reference">
+    <h2>Template Reference Variables</h2>
+    <input #myinput type="text">
+    <button class="btn" (click)="logMessage(myinput.value)">Go</button>
+    <h2>{{message}}</h2>
+</div>
+
+
 

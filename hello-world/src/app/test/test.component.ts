@@ -13,6 +13,8 @@ export class TestComponent implements OnInit {
   public hasError = true;
   public isSpecial = true;
   public highlightColor = "darkblue"
+  public hello = "";
+  public message = "";
 
   public messageClasses = {
     "text-sucess": this.hasError,
@@ -32,6 +34,16 @@ export class TestComponent implements OnInit {
 
   helloUser() {
     return "Hello " + this.name + " from helloUser() component class";
+  }
+
+  onClick(event) {
+    //this.hello = event.type;
+    this.hello = "hello";
+  }
+
+  logMessage(value) {
+    this.message = "Go check your console";
+    console.log("You type: " + value);
   }
 
 }
