@@ -15,6 +15,11 @@ export class TestComponent implements OnInit {
   public highlightColor = "darkblue"
   public hello = "";
   public message = "";
+  public twoWay = "";
+  public displayName = true; //change for false
+  public colorNG = "blue";
+
+  public colors = ["blue", "yellow", "red", "green"];
 
   public messageClasses = {
     "text-sucess": this.hasError,

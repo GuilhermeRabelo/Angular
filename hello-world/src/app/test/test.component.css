@@ -19,7 +19,7 @@ h2 {
     margin-left: 10px;
 }
 
-#interpolation, #class-binding, #style-binding, #event-binding, #template-reference {
+.usual {
     width: 50%;
     border: 2px solid lightblue;
     margin: 0 auto;
@@ -33,6 +33,9 @@ button {
     width: 20%;
 }
 
+input {
+    margin-left: 200px;
+}
 
 
 
