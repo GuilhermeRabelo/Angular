@@ -7,5 +7,12 @@
     <h2>The url for this site is {{siteUrl}}</h2>
 </div>
 
+<div id="class-binding">
+    <h2>--CLASS BINDING--</h2>
+    <h2 [class]="sucessClass">This is a green text</h2>
+    <h2 [class.text-danger]="hasError">New attribute class synthax</h2> <!-- Eu posso dar um toggle na cor se eu mudar o valor do component "hasError"-->
+    <h2 [ngClass]="messageClasses">Using ngClass</h2>
+</div>
+
 
 
