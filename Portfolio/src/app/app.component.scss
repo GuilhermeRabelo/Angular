@@ -1,0 +1,62 @@
+@import "../assets/sass/variaveis.scss";
+
+.bg {
+    background-image: url(https://files.slack.com/files-pri/T04L38A0J-FLQK5U212/team.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0 0 30% 30%;
+}
+
+h1 {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 50px;
+    text-align: center;
+    font-family: $font-destaque;
+    letter-spacing: 4px;
+}
+
+.main {
+    background-image: url(../assets/imgs/memphis-mini.png);
+    background-attachment: fixed;
+
+    h2 {
+        padding-top: 5%;
+        font-size: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: $font-destaque;
+
+        mark {
+            background: $cor-destaque;
+        }
+    }
+
+    h4 {
+        color: grey;
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        font-family: $font-geral;
+    }
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+    a.navbar-item {
+        transition: color .3s;
+    }
+
+    a.navbar-item:hover {
+        color: $cor-destaque;
+        background-color: white;
+        border-bottom: 2px solid $cor-secundaria;
+    }
+}
+

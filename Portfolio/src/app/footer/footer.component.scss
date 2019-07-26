@@ -1,0 +1,11 @@
+@import "../../assets/sass/variaveis.scss";
+
+footer {
+    background: lightgray;
+    font-family: $font-geral;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: $cor-secundaria;
+}
