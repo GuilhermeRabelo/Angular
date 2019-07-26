@@ -1,0 +1,94 @@
+@import "../../assets/sass/variaveis.scss";
+
+.bg {
+    background-image: url(https://files.slack.com/files-pri/T04L38A0J-FLQK5U212/team.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    h1 {
+        color: white;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        font-size: 50px;
+        font-family: $font-destaque;
+        letter-spacing: 4px;
+    }
+    
+    h3 {
+        color: white;
+        margin-top: 10px;
+        padding-bottom: 50px;
+        font-family: $font-geral;
+    }
+}
+
+.main {
+    background-image: url(../../assets/imgs/memphis-mini.png);
+    background-attachment: scroll;
+    
+    .intro {
+
+        h2 {
+            padding-top: 5%;
+            font-size: 50px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: $font-destaque;
+    
+            mark {
+                background: $cor-destaque;
+            }
+        }
+    
+        h4 {
+            color: grey;
+            margin-top: 40px;
+            font-size: 20px;
+            text-align: center;
+            font-family: $font-geral;
+        }
+    }
+
+    h2 {
+        padding-top: 5%;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: $font-destaque;
+    }
+
+    hr {
+        margin: 0;
+        width: 8%;
+        height: 10px;
+        background-color: green;
+    }
+
+    .content {
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+
+        img {
+            margin-top: 50px;
+            width: 115px;
+            background-color: $cor-destaque;
+            border-radius: 30%;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: $font-geral;
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
