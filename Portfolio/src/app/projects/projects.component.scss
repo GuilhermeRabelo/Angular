@@ -3,16 +3,18 @@
 .column {
     margin-top: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     img {
-        width: 350px;
+        width: 55%;
+        height: auto;
         border-radius: 5%;
         transition: box-shadow .5s;
 
         &:hover {
             box-shadow: 5px 12px 25px 5px rgba(0, 0, 0, 0.632);
         }
+        
     }
 }
 
@@ -20,7 +22,8 @@
 
     h3 {
         margin-left: 50px;
-        font-size: 40px;
+        font-size: 30px;
+        text-align: start;
         text-transform: uppercase;
         font-weight: bold;
         font-family: $font-destaque;
@@ -29,12 +32,13 @@
     .subtitle {
         margin-left: 50px;
         font-family: $font-geral;
+        text-align: start;
     }
 
     .description {
         font-size: 15px;
         margin-left: 50px;
-        text-align: justify;
+        text-align: start;
         font-family: $font-geral;
     }
 }
@@ -64,6 +68,19 @@
     }
 }
 
+//FALTA ARRUMAR RESPONSIVIDADE
+
+@media (max-width: 906px) {
+    .about {
+        h3 {
+            font-size: 23px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+        }
+    }
+}
 
 
 

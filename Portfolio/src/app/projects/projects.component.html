@@ -1,9 +1,9 @@
 <div class="container">
-    <div class="columns is-multiline is-mobile">
-        <div  *ngFor="let post of posts; index as i" class="column is-6">
-            <img routerLink="/about-project" src="{{post.img}}">
+    <div class="columns is-multiline is-1-desktop">
+        <div *ngFor="let post of posts; index as i" class="column is-6">
+            <img class="image" [routerLink]="['/about-project', post.id]" src="{{post.img}}">
             <div class="about">
-                <h3>{{post.name}} {{i+1}}</h3>
+                <h3>{{post.name}} {{post.id}}</h3>
                 <p class="subtitle">{{post.subt}}</p>
                 <p class="description">{{post.descript}}</p>
             </div>

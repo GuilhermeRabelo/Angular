@@ -9,57 +9,58 @@ import { Observable } from 'rxjs';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
+  [x: string]: any;
 
   public numbers = [1,2,3];
-  
-  // public projetos = [
+
+  // [
   //   {
-  //     img: "../../assets/imgs/computer.jpg",
-  //     name: "Projeto",
-  //     subt: "Desenvolvimento mobile",
-  //     descript: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
+  //     "img": "../../assets/imgs/computer.jpg",
+  //     "name": "Projeto",
+  //     "subt": "Desenvolvimento mobile",
+  //     "descript": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
   //   },
   //   {
-  //     img: "../../assets/imgs/computer.jpg",
-  //     name: "Projeto",
-  //     subt: "Desenvolvimento mobile",
-  //     descript: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
+  //     "img": "../../assets/imgs/computer.jpg",
+  //     "name": "Projeto",
+  //     "subt": "Desenvolvimento mobile",
+  //     "descript": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
   //   },
   //   {
-  //     img: "../../assets/imgs/computer.jpg",
-  //     name: "Projeto",
-  //     subt: "Desenvolvimento mobile",
-  //     descript: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
+  //     "img": "../../assets/imgs/computer.jpg",
+  //     "name": "Projeto",
+  //     "subt": "Desenvolvimento mobile",
+  //     "descript": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
   //   },
   //   {
-  //     img: "../../assets/imgs/computer.jpg",
-  //     name: "Projeto",
-  //     subt: "Desenvolvimento mobile",
-  //     descript: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
+  //     "img": "../../assets/imgs/computer.jpg",
+  //     "name": "Projeto",
+  //     "subt": "Desenvolvimento mobile",
+  //     "descript": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
   //   },
   //   {
-  //     img: "../../assets/imgs/computer.jpg",
-  //     name: "Projeto",
-  //     subt: "Desenvolvimento mobile",
-  //     descript: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
+  //     "img": "../../assets/imgs/computer.jpg",
+  //     "name": "Projeto",
+  //     "subt": "Desenvolvimento mobile",
+  //     "descript": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
   //   },
   //   {
-  //     img: "../../assets/imgs/computer.jpg",
-  //     name: "Projeto",
-  //     subt: "Desenvolvimento mobile",
-  //     descript: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
+  //     "img": "../../assets/imgs/computer.jpg",
+  //     "name": "Projeto",
+  //     "subt": "Desenvolvimento mobile",
+  //     "descript": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
   //   },
   //   {
-  //     img: "../../assets/imgs/computer.jpg",
-  //     name: "Projeto",
-  //     subt: "Desenvolvimento mobile",
-  //     descript: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
+  //     "img": "../../assets/imgs/computer.jpg",
+  //     "name": "Projeto",
+  //     "subt": "Desenvolvimento mobile",
+  //     "descript": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
   //   },
   //   {
-  //     img: "../../assets/imgs/computer.jpg",
-  //     name: "Projeto",
-  //     subt: "Desenvolvimento mobile",
-  //     descript: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
+  //     "img": "../../assets/imgs/computer.jpg",
+  //     "name": "Projeto",
+  //     "subt": "Desenvolvimento mobile",
+  //     "descript": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt inventore atque amet beatae ex corporis Lorem ipsum dolor sit"
   //   },
   // ]
 
